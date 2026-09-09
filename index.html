@@ -19,8 +19,11 @@
       <button class="pill pill-sync" id="syncBtn">
         <span class="pill-emoji">🎯</span> Sinkron
       </button>
-      <button class="pill pill-change" id="changeBtn">
-        <span class="pill-emoji">✏️</span> Ganti Lagu
+      <button class="pill pill-search" id="searchBtn">
+        <span class="pill-emoji">🔍</span> Cari Lagu
+      </button>
+      <button class="pill pill-mode" id="modeBtn">
+        <span class="pill-emoji" id="modeEmoji">🔁</span> <span id="modeLabel">Urut</span>
       </button>
     </div>
   </header>
@@ -74,6 +77,18 @@
     </button>
   </div>
 
+</div>
+
+<!-- SEARCH / SONG LIST MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h3>🎵 Semua Lagu</h3>
+      <button class="modal-close" id="modalClose">✕</button>
+    </div>
+    <input type="text" id="searchInput" class="search-input" placeholder="Cari judul atau penyanyi...">
+    <ul class="song-list" id="songList"></ul>
+  </div>
 </div>
 
 <audio id="audio"></audio>

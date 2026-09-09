@@ -47,10 +47,23 @@ kali halaman dibuka.
 ## Tombol-tombol di UI
 
 - **🎯 Sinkron** — nyala/matikan sorotan lirik otomatis mengikuti waktu lagu.
-- **✏️ Ganti Lagu** — pindah ke lagu berikutnya dari daftar di `songs.js`.
+- **🔍 Cari Lagu** — buka daftar semua lagu, bisa diketik untuk mencari
+  berdasarkan judul atau nama penyanyi. Klik salah satu untuk langsung
+  memutarnya.
+- **🔁 Urut / 🔀 Acak** — klik untuk pindah mode: **Urut** memutar lagu
+  berurutan sesuai daftar di `songs.js`, **Acak** memutar lagu secara
+  random tiap kali pindah (tombol next, tombol prev, atau lagu selesai).
 - **🤍 Hati** — tandai lagu favorit (masih visual saja, bisa kamu kembangkan
   misalnya disimpan ke `localStorage`).
 - Klik salah satu baris lirik → lagu langsung lompat ke waktu baris itu.
+
+## Nambah banyak lagu
+
+Buka `songs.js`, lalu copy satu blok lagu dan tempel lagi di bawahnya
+(pisahkan dengan koma). Semua lagu yang kamu daftarkan di situ otomatis
+muncul di panel **Cari Lagu** dan ikut diputar bergantian sesuai mode
+Urut/Acak yang aktif. Lihat contoh blok kedua yang sudah dikomentari di
+dalam `songs.js` sebagai panduan format datanya.
 
 ## File dalam project ini
 

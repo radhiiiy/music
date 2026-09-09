@@ -10,8 +10,16 @@ const songArtistEl  = document.getElementById('songArtist');
 const lyricsCard     = document.getElementById('lyricsCard');
 
 const syncBtn   = document.getElementById('syncBtn');
-const changeBtn = document.getElementById('changeBtn');
+const searchBtn = document.getElementById('searchBtn');
+const modeBtn   = document.getElementById('modeBtn');
+const modeEmoji = document.getElementById('modeEmoji');
+const modeLabel = document.getElementById('modeLabel');
 const heartBtn  = document.getElementById('heartBtn');
+
+const modalOverlay = document.getElementById('modalOverlay');
+const modalClose   = document.getElementById('modalClose');
+const searchInput  = document.getElementById('searchInput');
+const songListEl   = document.getElementById('songList');
 
 const playBtn  = document.getElementById('playBtn');
 const playIcon = document.getElementById('playIcon');
@@ -25,6 +33,8 @@ const durTime = document.getElementById('durTime');
 let currentIndex = 0;
 let isPlaying = false;
 let syncOn = true;
+let shuffleOn = false;   // false = urut, true = acak
+let lastIndexes = [];    // riwayat lagu yang baru diputar (dipakai saat mode acak)
 
 // Menerima angka detik (15) ATAU teks "MM:SS" / "HH:MM:SS" (00:15, 1:07:30)
 // dan selalu mengembalikan jumlah detik dalam bentuk angka.
@@ -77,6 +87,12 @@ function loadSong(index) {
   seekBar.value = 0;
   curTime.textContent = '0:00';
   durTime.textContent = '0:00';
+
+  // catat riwayat (dipakai supaya mode acak tidak mengulang lagu yang sama terus)
+  lastIndexes.push(currentIndex);
+  if (lastIndexes.length > SONGS.length) lastIndexes.shift();
+
+  if (modalOverlay.classList.contains('open')) renderSongList(searchInput.value);
 }
 
 // ---------- Render lyric lines ----------
@@ -139,10 +155,41 @@ function updatePlayIcon() {
     : '<path d="M8 5v14l11-7z"/>';
 }
 
+// ---------- Navigasi lagu (mendukung mode urut & acak) ----------
+function getRandomIndex() {
+  if (SONGS.length <= 1) return 0;
+  let idx;
+  do {
+    idx = Math.floor(Math.random() * SONGS.length);
+  } while (idx === currentIndex);
+  return idx;
+}
+
+function goNext() {
+  if (shuffleOn) {
+    loadSong(getRandomIndex());
+  } else {
+    loadSong(currentIndex + 1);
+  }
+  playAudio();
+}
+
+function goPrev() {
+  if (shuffleOn) {
+    // di mode acak, tombol prev balik ke lagu sebelumnya yang baru diputar
+    lastIndexes.pop(); // buang entri lagu saat ini
+    const prevPlayed = lastIndexes.pop();
+    loadSong(prevPlayed !== undefined ? prevPlayed : getRandomIndex());
+  } else {
+    loadSong(currentIndex - 1);
+  }
+  playAudio();
+}
+
 playBtn.addEventListener('click', () => isPlaying ? pauseAudio() : playAudio());
-prevBtn.addEventListener('click', () => { loadSong(currentIndex - 1); playAudio(); });
-nextBtn.addEventListener('click', () => { loadSong(currentIndex + 1); playAudio(); });
-audio.addEventListener('ended', () => { loadSong(currentIndex + 1); playAudio(); });
+prevBtn.addEventListener('click', goPrev);
+nextBtn.addEventListener('click', goNext);
+audio.addEventListener('ended', goNext);
 
 // ---------- Progress bar ----------
 audio.addEventListener('loadedmetadata', () => {
@@ -176,9 +223,77 @@ syncBtn.addEventListener('click', () => {
   }
 });
 
-// ---------- Ganti lagu button (loncat ke lagu berikutnya di daftar) ----------
-changeBtn.addEventListener('click', () => {
-  loadSong(currentIndex + 1);
+// ---------- Modal: cari & pilih lagu ----------
+function openModal() {
+  modalOverlay.classList.add('open');
+  searchInput.value = '';
+  renderSongList('');
+  searchInput.focus();
+}
+
+function closeModal() {
+  modalOverlay.classList.remove('open');
+}
+
+function renderSongList(filterText) {
+  const q = filterText.trim().toLowerCase();
+  const filtered = SONGS
+    .map((song, i) => ({ song, i }))
+    .filter(({ song }) =>
+      song.title.toLowerCase().includes(q) || song.artist.toLowerCase().includes(q)
+    );
+
+  songListEl.innerHTML = '';
+
+  if (filtered.length === 0) {
+    const empty = document.createElement('li');
+    empty.className = 'song-list-empty';
+    empty.textContent = 'Lagu tidak ketemu 😿';
+    songListEl.appendChild(empty);
+    return;
+  }
+
+  filtered.forEach(({ song, i }) => {
+    const li = document.createElement('li');
+    li.className = 'song-item' + (i === currentIndex ? ' playing' : '');
+    li.innerHTML = `
+      <div class="song-item-thumb">
+        <img src="${song.photoSrc || ''}" alt="" onerror="this.style.display='none'">
+        <span>🎵</span>
+      </div>
+      <div class="song-item-text">
+        <div class="song-item-title">${escapeHtml(song.title)}</div>
+        <div class="song-item-artist">${escapeHtml(song.artist)}</div>
+      </div>
+    `;
+    li.addEventListener('click', () => {
+      loadSong(i);
+      playAudio();
+      closeModal();
+    });
+    songListEl.appendChild(li);
+  });
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+searchBtn.addEventListener('click', openModal);
+modalClose.addEventListener('click', closeModal);
+modalOverlay.addEventListener('click', (e) => {
+  if (e.target === modalOverlay) closeModal();
+});
+searchInput.addEventListener('input', () => renderSongList(searchInput.value));
+
+// ---------- Toggle mode: Urut <-> Acak ----------
+modeBtn.addEventListener('click', () => {
+  shuffleOn = !shuffleOn;
+  modeBtn.classList.toggle('acak', shuffleOn);
+  modeEmoji.textContent = shuffleOn ? '🔀' : '🔁';
+  modeLabel.textContent = shuffleOn ? 'Acak' : 'Urut';
 });
 
 // ---------- Heart / favorit (cuma visual, boleh dikembangkan) ----------
