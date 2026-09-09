@@ -167,6 +167,62 @@ const SONGS = [
  
   ]
 }
+,
+{
+  title: "Aku Milikmu",
+  artist: "Dewa 19",
+  audioSrc: "assets/lagu4.mp3",
+  photoSrc: "assets/foto4.jpg",
+
+  lyrics: [
+    { time: "00:15", text: "Terdengar lirih bisikanmu" },
+    { time: "00:19", text: "Di antara bayang-bayangmu" },
+    { time: "00:23", text: "Terucap kata cinta" },
+    { time: "00:26", text: "Yang dulu tersimpan dan tak mau pergi" },
+
+    { time: "00:43", text: "Sekejap cinta yang terjalin" },
+    { time: "00:47", text: "Dan menjadi sebuah cerita" },
+    { time: "00:51", text: "Yang tak mungkin terlupa" },
+    { time: "00:55", text: "Terukir di hati dan tak mau pergi" },
+
+    { time: "01:05", text: "Mungkinkah kumiliki cinta seperti ini lagi?" },
+    { time: "01:12", text: "Jangan biarkan aku kehilangan dirimu" },
+
+    { time: "01:21", text: "Coba dengarkanlah sumpahku (janji suci) dari hati" },
+    { time: "01:30", text: "Aku cinta kamu" },
+    { time: "01:35", text: "Jangan dengar kata mereka yang tak ingin kita satu" },
+    { time: "01:42", text: "Yakinkan aku milikmu, aku milikmu" },
+
+    { time: "02:00", text: "Jalinan cinta tulus suci" },
+    { time: "02:03", text: "Terpadu, terikat erat" },
+    { time: "02:07", text: "Jangan terpisah lagi" },
+    { time: "02:11", text: "Waktu 'kan menguji cinta kita berdua" },
+
+    { time: "02:21", text: "Mungkinkah kumiliki cinta seperti ini lagi?" },
+    { time: "02:28", text: "Jangan biarkan aku kehilangan dirimu" },
+
+    { time: "02:37", text: "Coba dengarkanlah sumpahku (janji suci) dari hati" },
+    { time: "02:46", text: "Aku cinta kamu" },
+    { time: "02:51", text: "Jangan dengar kata mereka yang tak ingin kita satu" },
+    { time: "03:00", text: "Yakinkan aku milikmu, aku milikmu" },
+
+    { time: "03:30", text: "Mungkinkah kumiliki cinta seperti ini lagi?" },
+    { time: "03:37", text: "Jangan biarkan aku kehilangan dirimu" },
+
+    { time: "03:46", text: "Coba dengarkanlah sumpahku (janji suci) dari hati" },
+    { time: "03:55", text: "Aku cinta kamu" },
+    { time: "04:01", text: "Jangan dengar kata mereka yang tak ingin kita satu" },
+    { time: "04:09", text: "Yakinkan aku milikmu, aku milikmu" },
+    
+    { time: "04:18", text: "(Jangan dengarkan) coba dengarkanlah sumpahku (jangan risaukan)" },
+    { time: "04:22", text: "(Janji suci) dari hati (dari lubuk hati)" },
+    { time: "04:27", text: "Aku cinta kamu (aku cinta kamu)" },
+    { time: "04:33", text: "Jangan dengar kata mereka yang tak ingin kita satu" },
+
+    { time: "04:41", text: "Yakinkan aku milikmu, aku milikmu" }
+  ]
+}
+
 
 
   
