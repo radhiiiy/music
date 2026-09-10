@@ -496,7 +496,7 @@ const SONGS = [
 ,
 {
   title: "Risalah Hati",
-  artist: "Dewa",
+  artist: "Dewa 19",
   audioSrc: "assets/lagu10.mp3",
   photoSrc: "assets/foto10.jpg",
   lyrics: [
