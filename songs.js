@@ -435,7 +435,116 @@ const SONGS = [
     { time: "03:34", text: "Namun bersorai pernah bertemu" }
   ]
 }
+,
+{
+  title: "Kangen",
+  artist: "Dewa 19",
+  audioSrc: "assets/lagu9.mp3",
+  photoSrc: "assets/foto9.jpg",
+  lyrics: [
+    { time: "00:15", text: "Kut'rima suratmu" },
+    { time: "00:17", text: "T'lah kubaca dan aku mengerti" },
+    { time: "00:22", text: "Betapa merindunya" },
+    { time: "00:25", text: "Dirimu akan hadirnya diriku" },
+    { time: "00:30", text: "Di dalam hari-harimu" },
+    { time: "00:34", text: "Bersama lagi" },
 
-  
+    { time: "00:38", text: "Kautanyakan padaku" },
+    { time: "00:41", text: "Kapan aku akan kembali lagi" },
+    { time: "00:45", text: "Katamu kau tak kuasa" },
+    { time: "00:48", text: "Melawan gejolak di dalam dada" },
+    { time: "00:53", text: "Yang membara, menahan rasa" },
+    { time: "00:57", text: "Pertemuan kita nanti" },
+    { time: "01:02", text: "Saat bersama dirimu" },
+
+    { time: "01:06", text: "Semua kata rindumu semakin membuatku tak berdaya" },
+    { time: "01:14", text: "Menahan rasa ingin jumpa" },
+    { time: "01:19", text: "Percayalah padaku, aku pun rindu kamu, ku akan pulang" },
+    { time: "01:27", text: "Melepas semua kerinduan yang terpendam" },
+
+    { time: "01:53", text: "Kautuliskan padaku" },
+    { time: "01:56", text: "Kata cinta yang manis dalam suratmu" },
+    { time: "02:00", text: "Kaukatakan padaku" },
+    { time: "02:03", text: "\"Saat ini ku ingin hangat pelukmu" },
+    { time: "02:08", text: "Dan belai lembut kasihmu\"" },
+    { time: "02:12", text: "Takkan kulupa s'lamanya" },
+    { time: "02:17", text: "Saat kau ada di sisiku" },
+
+    { time: "02:22", text: "Semua kata rindumu semakin membuatku tak berdaya" },
+    { time: "02:29", text: "Menahan rasa ingin jumpa" },
+    { time: "02:35", text: "Percayalah padaku, aku pun rindu kamu, ku akan pulang" },
+    { time: "02:42", text: "Melepas semua kerinduan yang terpendam" },
+
+    { time: "02:53", text: "Jangan katakan cinta" },
+    { time: "02:57", text: "Menambah beban rasa" },
+    { time: "03:00", text: "Sudah, simpan saja sedihmu itu" },
+    { time: "03:05", text: "Ku akan datang, oh" },
+
+    { time: "03:46", text: "Semua kata rindumu semakin membuatku tak berdaya" },
+    { time: "03:54", text: "Menahan rasa ingin jumpa" },
+    { time: "03:59", text: "Percayalah padaku, aku pun rindu kamu, ku akan pulang" },
+    { time: "04:06", text: "Melepas semua kerinduan yang terpendam" },
+
+    { time: "04:20", text: "Semua kata rindumu (semua kata rindumu) semakin membuatku" },
+    { time: "04:25", text: "Tak berdaya (tak berdaya)" },
+    { time: "04:28", text: "Menahan rasa ingin jumpa" },
+    { time: "04:33", text: "Percayalah padaku (percayalah padaku), aku pun rindu kamu" },
+    { time: "04:37", text: "Ku akan pulang" },
+    { time: "04:40", text: "Melepas semua kerinduan yang terpendam" }
+  ]
+}
+,
+{
+  title: "Risalah Hati",
+  artist: "Dewa",
+  audioSrc: "assets/lagu10.mp3",
+  photoSrc: "assets/foto10.jpg",
+  lyrics: [
+    { time: "00:14", text: "Hidupku tanpa cintamu" },
+    { time: "00:20", text: "Bagai malam tanpa bintang" },
+    { time: "00:27", text: "Cintaku tanpa sambutmu" },
+    { time: "00:33", text: "Bagai panas tanpa hujan" },
+    { time: "00:40", text: "Jiwaku berbisik lirih" },
+    { time: "00:46", text: "Ku harus milikimu" },
+
+    { time: "00:52", text: "Aku bisa membuatmu jatuh cinta kepadaku" },
+    { time: "00:58", text: "Meski kau tak cinta kepadaku" },
+    { time: "01:05", text: "Beri sedikit waktu" },
+    { time: "01:08", text: "Biar cinta datang karena telah terbiasa" },
+
+    { time: "01:18", text: "Simpan mawar yang kuberi" },
+    { time: "01:24", text: "Mungkin wanginya mengilhami" },
+    { time: "01:31", text: "Sudikah dirimu untuk" },
+    { time: "01:37", text: "Kenali aku dulu" },
+    { time: "01:43", text: "Sebelum kau ludahi aku" },
+    { time: "01:56", text: "Sebelum kau robek hatiku" },
+
+    { time: "01:56", text: "Aku bisa membuatmu jatuh cinta kepadaku" },
+    { time: "02:02", text: "Meski kau tak cinta kepadaku" },
+    { time: "02:08", text: "Beri sedikit waktu" },
+    { time: "02:12", text: "Biar cinta datang karena telah terbiasa" },
+
+    { time: "02:52", text: "Aku bisa membuatmu jatuh cinta kepadaku" },
+    { time: "02:58", text: "Meski kau tak cinta kepadaku" },
+    { time: "03:04", text: "Beri sedikit waktu" },
+    { time: "03:08", text: "Biar cinta datang karena telah terbiasa" },
+
+    { time: "03:17", text: "Aku bisa membuatmu jatuh cinta kepadaku" },
+    { time: "03:23", text: "Meski kau tak cinta kau tak cinta" },
+
+    { time: "03:30", text: "Aku bisa membuatmu jatuh cinta kepadaku" },
+    { time: "03:36", text: "Meski kau tak cinta kepadaku" },
+
+    { time: "03:42", text: "Aku bisa membuatmu jatuh cinta kepadaku" },
+    { time: "03:49", text: "Meski kau tak cinta kepadaku" },
+    { time: "03:55", text: "Beri sedikit waktu" },
+    { time: "03:59", text: "Biar cinta datang karena telah terbiasa" },
+
+    { time: "04:21", text: "Hidupku tanpa cintamu" },
+    { time: "04:28", text: "Bagai malam tanpa bintang" },
+    { time: "04:34", text: "Cintaku tanpa sambutmu" },
+    { time: "04:40", text: "Bagai panas tanpa hujan" }
+  ]
+} 
 
 ];
