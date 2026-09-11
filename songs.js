@@ -545,6 +545,119 @@ const SONGS = [
     { time: "04:34", text: "Cintaku tanpa sambutmu" },
     { time: "04:40", text: "Bagai panas tanpa hujan" }
   ]
-} 
+}
+,
+{
+  title: "Semua Aku Dirayakan",
+  artist: "Nadin Amizah",
+  audioSrc: "assets/lagu11.mp3",
+  photoSrc: "assets/foto11.jpg",
+  lyrics: [
+    { time: "00:22", text: "Terima kasih katanya" },
+    { time: "00:28", text: "Semua aku dirayakan" },
+    { time: "00:34", text: "Jangan menangis ku dibuai" },
+    { time: "00:39", text: "Sampai tenang" },
+
+    { time: "00:46", text: "Diciumnya api marahku" },
+    { time: "00:51", text: "Ternyata kacau bisa luluh" },
+    { time: "00:57", text: "Jangan menangis biar tenang" },
+    { time: "01:03", text: "Ku dibuai" },
+
+    { time: "01:10", text: "Jika malam datang" },
+    { time: "01:17", text: "Dan takut menyerang" },
+    { time: "01:22", text: "Kau genggam apa yang kuragukan" },
+
+    { time: "01:34", text: "Tiada yang bilang" },
+    { time: "01:40", text: "Badainya kan reda" },
+    { time: "01:48", text: "Berhadapan dengan cahaya yang kerap membutakan" },
+    { time: "01:57", text: "Tiada yang bilang" },
+    { time: "02:04", text: "Jawaban kan datang" },
+    { time: "02:09", text: "Jauh dari seram yang selama ini telah kubayangkan" },
+    { time: "02:19", text: "Semua aku dirayakan" },
+
+    { time: "02:59", text: "Hatiku seberat dunia" },
+    { time: "03:05", text: "Semua bentuknya kau rayakan" },
+    { time: "03:11", text: "Menangis pun kau penuh tenang" },
+    { time: "03:16", text: "Ku dibuai" },
+
+    { time: "03:23", text: "Jika malam datang" },
+    { time: "03:29", text: "Dan takut menyerang" },
+    { time: "03:35", text: "Kau genggam apa yang kuragukan uh oh hu" },
+
+    { time: "04:00", text: "Tiada yang bilang" },
+    { time: "04:05", text: "Badainya kan reda" },
+    { time: "04:11", text: "Berhadapan dengan cahaya yang kerap membutakan hu" },
+    { time: "04:23", text: "Tiada yang bilang" },
+    { time: "04:29", text: "Jawaban kan datang" },
+    { time: "04:34", text: "Jauh dari seram yang selama ini telah kubayangkan" },
+    { time: "04:44", text: "Semua aku dirayakan hu oh" }
+  ]
+}
+,
+{
+  title: "Kereta Kencan",
+  artist: "HIVI!",
+  audioSrc: "assets/lagu12.mp3",
+  photoSrc: "assets/foto12.jpg",
+  lyrics: [
+    { time: "00:00", text: "Ha-ah" },
+    { time: "00:04", text: "Ha-ah-ah" },
+    { time: "00:08", text: "Ha-ah" },
+    { time: "00:12", text: "Ha-ah-ah-ah" },
+
+    { time: "00:30", text: "di dalam setiap kisah lembar jalin asmara" },
+    { time: "00:38", text: "Yang ada antara diriku dengan cinta" },
+    { time: "00:45", text: "Dan jadi teman baikku, kemudikan bahagia" },
+    { time: "00:53", text: "Ataupun tempat berlindung bersama air mata" },
+
+    { time: "01:03", text: "Kau temaniku berlari" },
+    { time: "01:06", text: "Antarkanku untuk menggapai hati" },
+    { time: "01:09", text: "Kau saksi bisu" },
+    { time: "01:14", text: "Indah jalan cintaku" },
+    { time: "01:18", text: "Kau temaniku kembali" },
+    { time: "01:21", text: "Saat ku tak tahu ke mana lagi" },
+    { time: "01:24", text: "Kereta kencanku" },
+    { time: "01:27", text: "Bersamamu, ku melaju" },
+
+    { time: "01:37", text: "Di saat aku sendiri, menunggu yang tak pasti" },
+    { time: "01:44", text: "Kau ada denganku, setia menemani" },
+    { time: "01:52", text: "Menunggu waktu terbaik untuk berjalan lagi" },
+    { time: "02:00", text: "Mencari (mencari) yang pantas hadir dalam kereta ini (oh-oh-oh)" },
+
+    { time: "02:10", text: "Kau temaniku berlari" },
+    { time: "02:12", text: "Antarkanku untuk menggapai hati" },
+    { time: "02:16", text: "Kau saksi bisu" },
+    { time: "02:19", text: "Indah jalan cintaku" },
+    { time: "02:25", text: "Kau temaniku kembali" },
+    { time: "02:28", text: "Saat ku tak tahu ke mana lagi" },
+    { time: "02:31", text: "Kereta kencanku" },
+    { time: "02:34", text: "Bersamamu, ku melaju" },
+
+    { time: "02:44", text: "Ha-ah-ah-ah-ah-ah-ah-ah-ah-ah, ha-ah" },
+
+    { time: "02:51", text: "Dan ku percaya" },
+    { time: "02:53", text: "(Ku percaya) kereta kencan 'kan membawaku padamu" },
+
+    { time: "03:07", text: "Kau temaniku berlari" },
+    { time: "03:10", text: "Antarkanku untuk (ah-ah-ah-wo-oh) menggapai hati" },
+    { time: "03:13", text: "Kau saksi bisu" },
+    { time: "03:17", text: "Indah jalan cintaku" },
+    { time: "03:21", text: "(Wo-ho) kau temaniku kembali" },
+    { time: "03:25", text: "Saat ku tak tahu ke mana lagi" },
+    { time: "03:28", text: "Kereta kencanku" },
+    { time: "03:31", text: "Bersamamu, ku" },
+
+    { time: "03:33", text: "kau temaniku berlari" },
+    { time: "03:37", text: "Antarkanku untuk menggapai hati" },
+    { time: "03:40", text: "Kau saksi bisu (kau saksi bisu)" },
+    { time: "03:44", text: "Indah jalan cintaku" },
+    { time: "03:47", text: "(Ho-oh-wu-uh) kau temaniku kembali" },
+    { time: "03:52", text: "Saat ku tak tahu ke mana lagi (kereta)" },
+    { time: "03:55", text: "Kereta kencanku" },
+    { time: "03:58", text: "Bersamamu, ku melaju" },
+
+    { time: "04:06", text: "Ha-ah-ah-ah" }
+  ]
+}
 
 ];
