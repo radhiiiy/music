@@ -659,5 +659,48 @@ const SONGS = [
     { time: "04:06", text: "Ha-ah-ah-ah" }
   ]
 }
+,
+{
+  title: "Labirin",
+  artist: "Tulus",
+  audioSrc: "assets/lagu13.mp3",
+  photoSrc: "assets/foto13.jpg",
+  lyrics: [
+    { time: "00:09", text: "Kucari tau tentangmu" },
+    { time: "00:12", text: "Tanggal dan tahun lahirmu" },
+    { time: "00:14", text: "Kupelajari rasi bintang menebak pribadimu" },
+
+    { time: "00:19", text: "Tokoh kartun favoritmu" },
+    { time: "00:22", text: "Dan warna kegemaranmu" },
+    { time: "00:24", text: "Kutelusuri di titik mana kita kan bertemu (bius aku)" },
+
+    { time: "00:30", text: "Bius aku dengan tatapanmu tatapanmu (mesterimu)" },
+    { time: "00:40", text: "Menyiksaku tapi sungguh candu sungguh candu" },
+
+    { time: "00:49", text: "Lika liku labirinmu" },
+    { time: "00:52", text: "Tak kan urungkan niatku" },
+    { time: "00:55", text: "Betapa kuyakin kita berdua bisa menyatu (labirinmu)" },
+
+    { time: "01:00", text: "Jebak aku dalam labirinmu labirinmu (tersesatku)" },
+    { time: "01:10", text: "Tersesatku di adiwarnamu pesonamu (labirinmu)" },
+    { time: "01:20", text: "Jebak aku dalam labirinmu labirinmu labirinmu (tersesatku)" },
+    { time: "01:30", text: "Tersesatku di adiwarnamu pesonamu" },
+    { time: "01:43", text: "Ah" },
+    { time: "01:52", text: "Uh" },
+
+    { time: "02:00", text: "Kucari tau tentangmu" },
+    { time: "02:02", text: "Tanggal dan tahun lahirmu" },
+
+    { time: "02:04", text: "Kupelajari rasi bintang menebak pribadimu (bius aku)" },
+    { time: "02:10", text: "Bius aku dengan tatapanmu tatapanmu (misterimu)" },
+    { time: "02:20", text: "Menyiksaku tapi sungguh candu sungguh candu sungguh candu (labirinmu)" },
+    { time: "02:30", text: "Jebak aku dalam labirinmu labirinmu labirinmu (tersesatku)" },
+    { time: "02:41", text: "Tersesatku di adiwarnamu pesonamu" },
+
+    { time: "02:50", text: "Lika liku labirinmu" },
+    { time: "02:52", text: "Tak kan urungkan niatku" },
+    { time: "02:55", text: "Betapa kuyakin kita berdua bisa menyatu" }
+  ]
+}
 
 ];
