@@ -702,5 +702,59 @@ const SONGS = [
     { time: "02:55", text: "Betapa kuyakin kita berdua bisa menyatu" }
   ]
 }
+,
+{
+  title: "Penyihir",
+  artist: "Ghea Indrawari",
+  audioSrc: "assets/lagu14.mp3",
+  photoSrc: "assets/foto14.jpg",
+  lyrics: [
+    { time: "00:03", text: "Aku tak pernah kalah" },
+    { time: "00:06", text: "Coba saja bertaruh" },
+    { time: "00:10", text: "Jangankan memujamu" },
+    { time: "00:15", text: "Merayu pun tak mau" },
+
+    { time: "00:19", text: "Tapi itu sebelum kau rapal mantramu" },
+    { time: "00:23", text: "Terobrak-abrik seluruh akal sehatku" },
+    { time: "00:27", text: "Sesungguhnya ini tak masuk logikaku" },
+    { time: "00:31", text: "Mengapa seperti" },
+
+    { time: "00:34", text: "Aku yang gila" },
+    { time: "00:38", text: "Tergila-gila padamu" },
+    { time: "00:42", text: "Kau taruh sihir apa padaku" },
+    { time: "00:45", text: "Hingga bertekuk lutut aku" },
+    { time: "00:49", text: "Di hadapmu aku yang gila" },
+    { time: "00:54", text: "Tergila-gila padamu" },
+    { time: "00:58", text: "Kau taruh sihir apa padaku" },
+    { time: "01:01", text: "Hingga tertunduk aku, Merana tanpa belaimu" },
+
+    { time: "01:08", text: "Mungkin suaramu memabukkanku" },
+    { time: "01:12", text: "Mungkin kau karma dan kutukanku" },
+    { time: "01:15", text: "Ini tak masuk logikaku" },
+    { time: "01:19", text: "Mengapa seperti" },
+
+    { time: "01:22", text: "Aku yang gila" },
+    { time: "01:25", text: "Tergila-gila padamu" },
+    { time: "01:30", text: "Kau taruh sihir apa padaku" },
+    { time: "01:33", text: "Hingga bertekuk lutut aku" },
+    { time: "01:36", text: "Di hadapmu aku yang gila" },
+    { time: "01:41", text: "Tergila-gila padamu" },
+    { time: "01:45", text: "Kau taruh sihir apa padaku" },
+    { time: "01:49", text: "Hingga tertunduk aku, Merana tanpa belaimu" },
+
+    { time: "02:11", text: "Mungkin suaramu memabukkanku" },
+    { time: "02:15", text: "Mungkin kau karma dan kutukanku" },
+    { time: "02:22", text: "Mengapa seperti" },
+
+    { time: "02:25", text: "Aku yang gila" },
+    { time: "02:29", text: "Tergila=gila padamu" },
+    { time: "02:33", text: "Kau taruh sihir apa padaku" },
+    { time: "02:36", text: "Hingga bertekuk lutut" },
+    { time: "02:40", text: "Aku di hadapmu aku yang gila" },
+    { time: "02:45", text: "Tergila-gila padamu" },
+    { time: "02:49", text: "Kau taruh sihir apa padaku" },
+    { time: "02:52", text: "Hingga tertunduk aku, Merana tanpa belaimu" },
+  ]
+}
 
 ];
