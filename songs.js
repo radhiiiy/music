@@ -756,5 +756,52 @@ const SONGS = [
     { time: "02:52", text: "Hingga tertunduk aku, Merana tanpa belaimu" },
   ]
 }
+,
+{
+  title: "Rasa Cinta Ini",
+  artist: "Ghea Indrawari",
+  audioSrc: "assets/lagu15.mp3",
+  photoSrc: "assets/foto15.jpg",
+  lyrics: [
+    { time: "00:06", text: "Ho" },
+    { time: "00:14", text: "Ho" },
+    { time: "00:17", text: "Aku tak pernah bisa mengganti dirimu" },
+    { time: "00:25", text: "Dengan cinta yang lain" },
+    { time: "00:30", text: "Sungguh hanya hatimu hati yang kucari" },
+    { time: "00:38", text: "Yang paling ku sayangi" },
 
+    { time: "00:43", text: "Takkan berhenti, Tulus pengorbananku" },
+    { time: "00:51", text: "Tuk selalu bahagiakan dirimu" }, 
+
+    { time: "01:00", text: "Rasa cinta ini takkan berakhir" },
+    { time: "01:08", text: "Takkan terhapus waktu" },
+    { time: "01:13", text: "Rasa cinta ini hanya untukmu" },
+    { time: "01:21", text: "Hanya dirimu satu" },
+    { time: "01:29", text: "Cinta dalam hidupku" },
+
+    { time: "01:36", text: "Oh" },
+    { time: "01:39", text: "Sungguh hanya hatimu (hanya hatimu)" },
+    { time: "01:43", text: "Hati yang ku cari" },
+    { time: "01:47", text: "Yang paling aku sayangi" },
+
+    { time: "01:52", text: "Takkan berhenti, Tulus pengorbananku" },
+    { time: "01:59", text: "Tuk selalu bahagiakan dirimu (bahagiakan dirimu)" },
+
+    { time: "02:09", text: "Rasa cinta ini takkan berakhir" },
+    { time: "02:17", text: "Takkan terhapus waktu" },
+    { time: "02:22", text: "Rasa cinta ini hanya untukmu" },
+    { time: "02:30", text: "Hanya dirimu satu oh" },
+    { time: "02:37", text: "Cinta dalam hidupku ho" },
+
+    { time: "02:43", text: "Ho" },
+    { time: "02:51", text: "Hu" },
+
+    { time: "02:56", text: "Rasa cinta ini takkan berakhir" },
+    { time: "03:05", text: "Tak akan terhapuskan waktu ho" },
+    { time: "03:10", text: "Rasa cinta ini hanya untukmu" },
+    { time: "03:18", text: "Dan hanya dirimu satu" },
+    { time: "03:25", text: "Cinta dalam hidup oh" },
+    { time: "03:35", text: "Cinta dalam hidup" }
+  ]
+}
 ];
