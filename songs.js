@@ -10,7 +10,7 @@
 //    dinyanyikan. Boleh format detik biasa (24) atau "menit:detik" ("00:24").
 // 5. MAU NAMBAH LAGU LAIN? Tinggal copy satu blok { ... } di bawah ini,
 //    kasih koma di antaranya, lalu isi datanya. Semua lagu yang kamu
-//    tambahkan di sini otomatis akan muncul di tombol "🔍 Cari Lagu",
+//    tambahkan di sini otomatis akan muncul di tombol " Cari Lagu",
 //    dan ikut diputar bergantian lewat tombol Urut/Acak.
 //
 //    Contoh nambah lagu kedua (hapus tanda komentar /* */ di bawah
@@ -802,6 +802,67 @@ const SONGS = [
     { time: "03:18", text: "Dan hanya dirimu satu" },
     { time: "03:25", text: "Cinta dalam hidup oh" },
     { time: "03:35", text: "Cinta dalam hidup" }
+  ]
+}
+,
+{
+  title: "Asmalibrasi",
+  artist: "Soegi Bornean",
+  audioSrc: "assets/lagu16.mp3",
+  photoSrc: "assets/foto16.jpg",
+  lyrics: [
+    { time: "00:33", text: "Asmara telah terkalibrasi frekuensi yang sama" },
+    { time: "00:41", text: "Saatnya 'tuk mengikat janji merangkum indahnya" },
+
+    { time: "00:47", text: "Laras rasa nihil ragu" },
+    { time: "00:49", text: "Biar, biarlah merayu di ruang biru" },
+    { time: "00:54", text: "Bias kita jadi taksu gairah kalbu mendayu" },
+    { time: "00:58", text: "Sabda diramu" },
+
+    { time: "01:01", text: "Jadikan hanya aku satu-satunya" },
+    { time: "01:05", text: "Sang garwa pambage, sang pelipur lara" },
+    { time: "01:08", text: "Nyanyikan 'ku kidung setia" },
+
+    { time: "01:15", text: "Jadikan hanya aku satu-satunya" },
+    { time: "01:18", text: "Sang garwa pambage, sang pelipur lara" },
+    { time: "01:22", text: "Nyanyikan 'ku kidung setia" },
+
+    { time: "01:36", text: "Kini saatnya merangkai binar asmara" },
+    { time: "01:43", text: "Melebur 'tuk satukan ego dalam indahnya" },
+
+    { time: "01:49", text: "Berdansa dalam bahtera mahligai rasa" },
+    { time: "01:52", text: "Merajut ketulusan jiwa" },
+    { time: "01:56", text: "Mengabdi dalam indahnya kalbu" },
+    { time: "01:58", text: "Mengukir ruang renjana selamanya" },
+
+    { time: "02:03", text: "Jadikan hanya aku satu-satunya" },
+    { time: "02:06", text: "Sang garwa pambage, sang pelipur lara" },
+    { time: "02:10", text: "Nyanyikan 'ku kidung setia" },
+
+    { time: "02:17", text: "Jadikan hanya aku satu-satunya" },
+    { time: "02:20", text: "Sang garwa pambage, sang pelipur lara" },
+    { time: "02:24", text: "Nyanyikan 'ku kidung setia" },
+
+    { time: "02:58", text: "Berdansa dalam bahtera mahligai rasa" },
+    { time: "03:01", text: "Merajut ketulusan jiwa" },
+    { time: "03:04", text: "Mengabdi dalam indahnya kalbu" },
+    { time: "03:07", text: "Mengukir ruang renjana selamanya" },
+
+    { time: "03:12", text: "Jadikan hanya aku satu-satunya" },
+    { time: "03:15", text: "Sang garwa pambage, sang pelipur lara" },
+    { time: "03:19", text: "Nyanyikan 'ku kidung setia" },
+
+    { time: "03:25", text: "Jadikan hanya aku satu-satunya" },
+    { time: "03:28", text: "Sang garwa pambage, sang pelipur lara" },
+    { time: "03:33", text: "Nyanyikan 'ku kidung setia" },
+    
+    { time: "03:39", text: "Asmara telah terkalibrasi" },
+    { time: "03:42", text: "Asmara telah terkalibrasi" },
+    { time: "03:46", text: "Dan jadikan 'ku kidung setia" },
+
+    { time: "03:53", text: "Asmara telah terkalibrasi" },
+    { time: "03:56", text: "Asmara telah terkalibrasi" },
+    { time: "04:00", text: "Dan jadikan 'ku kidung setia" }
   ]
 }
 ];
