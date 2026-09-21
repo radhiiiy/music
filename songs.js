@@ -865,4 +865,38 @@ const SONGS = [
     { time: "04:00", text: "Dan jadikan 'ku kidung setia" }
   ]
 }
+,
+{
+  title: "Bait Perindu",
+  artist: "Soegi Bornean",
+  audioSrc: "assets/lagu177.mp3",
+  photoSrc: "assets/foto17.jpg",
+  lyrics: [
+    { time: "00:48", text: "Merangkai aksara pelipur aku" },
+    { time: "01:01", text: "Membuang rasa tak menentu" },
+    { time: "01:14", text: "Bersama ragu dibalut rindu" },
+
+    { time: "01:28", text: "Rindu, bukan masalah waktu" },
+    { time: "01:35", text: "Rindu, bukan perihal menunggu" },
+    { time: "01:42", text: "Rindu, bukan kendala mata bertemu" },
+
+    { time: "02:01", text: "Rindu itu meramu rasa menyandu" },
+    { time: "02:15", text: "Jadi harapan yang ditunggu" },
+    { time: "02:28", text: "Meski pada akhirnya seperti dungu" },
+    { time: "02:37", text: "Membelenggu" },
+
+    { time: "02:42", text: "Selalu menyapa rindu" },
+    { time: "02:49", text: "Rindu tentang apa pun" },
+    { time: "02:56", text: "Ingin terus merindu-rindu" },
+    { time: "03:02", text: "Pada siapa pun seperti candu" },
+
+    { time: "03:50", text: "Bersyukur masih bisa merindu" },
+    { time: "04:03", text: "Rindu yang terus-menerus menderu" },
+
+    { time: "04:17", text: "Rindu, bukan masalah waktu" },
+    { time: "04:24", text: "Rindu, bukan perihal menunggu" },
+    { time: "04:31", text: "Rindu, bukan kendala mata" },
+    { time: "04:55", text: "Selalu menyapa rindu" }
+  ]
+}
 ];
