@@ -899,4 +899,110 @@ const SONGS = [
     { time: "04:55", text: "Selalu menyapa rindu" }
   ]
 }
+,
+{
+  title: "Kamu",
+  artist: "Halstage",
+  audioSrc: "assets/lagu18.mp3",
+  photoSrc: "assets/foto18.jpg",
+  lyrics: [
+    { time: "00:11", text: "Kamu" },
+    { time: "00:14", text: "Ada pada bayang dalam hujan" },
+    { time: "00:20", text: "Tiba-tiba datang di pertengahan" },
+    { time: "00:26", text: "Februari" },
+
+    { time: "00:34", text: "Ruang" },
+    { time: "00:37", text: "Langit penuh dengan pesawat kertas" },
+    { time: "00:43", text: "Lambung paru-paru ku dipenuhi" },
+    { time: "00:52", text: "Kupu-kupu" },
+
+    { time: "01:02", text: "Ini aku di angkasa" },
+    { time: "01:04", text: "Tersenyum dan sedang bisa" },
+    { time: "01:06", text: "Memikirkanmu" },
+    { time: "01:11", text: "Membayangkan mu" },
+
+    { time: "01:13", text: "Tolong izinkan semesta" },
+    { time: "01:16", text: "Optimis ku untuk bisa" },
+    { time: "01:19", text: "Menyenangkan mu" },
+    { time: "01:22", text: "Jadi alasan mu rindu" },
+
+    { time: "01:37", text: "Kamu" },
+    { time: "01:40", text: "Telah jadi novel favoritku" },
+    { time: "01:45", text: "Sedang jadi topik utama ku" },
+    { time: "01:52", text: "Dalam bersyair" },
+
+    { time: "02:01", text: "Kamu" },
+    { time: "02:03", text: "Dan semua hal bagus di dirimu" },
+    { time: "02:09", text: "Adalah efektif untuk aku" },
+    { time: "02:15", text: "Menyayangi mu" },
+
+    { time: "02:27", text: "Mendambakan mu wo ho" },
+
+    { time: "02:42", text: "Ini aku di angkasa" },
+    { time: "02:45", text: "Tersenyum dan sedang bisa" },
+    { time: "02:48", text: "Memikirkan mu" },
+    { time: "02:51", text: "Membayangkan mu" },
+
+    { time: "02:54", text: "Tolong izinkan semesta" },
+    { time: "02:57", text: "Optimis ku untuk bisa" },
+    { time: "03:00", text: "Menyenangkan mu" },
+    { time: "03:03", text: "Jadi alasan mu" },
+
+    { time: "03:07", text: "Ini aku di angkasa" },
+    { time: "03:09", text: "Tersenyum dan sedang bisa" },
+    { time: "03:12", text: "Memikirkan mu" },
+    { time: "03:15", text: "Membayangkan mu ho" },
+
+    { time: "03:18", text: "Tolong izinkan semesta" },
+    { time: "03:21", text: "Optimis ku untuk bisa" },
+    { time: "03:24", text: "Menyenangkan mu" },
+    { time: "03:27", text: "Jadi alasan mu rindu" },
+    { time: "03:32", text: "Oh" },
+
+    { time: "03:53", text: "Oh-ho-ho-ho-ho" },
+    { time: "04:03", text: "Oh ho ho" }
+  ]
+}
+,
+{
+  title: "Di Akhir Perang",
+  artist: "Nadin Amizah",
+  audioSrc: "assets/lagu19.mp3",
+  photoSrc: "assets/foto19.jpg",
+  lyrics: [
+    { time: "00:16", text: "Perlahan akan, Ku ajarkan cara" },
+    { time: "00:29", text: "Menanam menuai, Baik buruk di dunia" },
+
+    { time: "00:43", text: "Ku warnai tanganmu yang mati" },
+    { time: "00:50", text: "Biar kau lihat dunia tak lagi menyakiti" },
+
+    { time: "01:00", text: "Dan ku bisikkan asal kau tahu bagaimana" },
+    { time: "01:07", text: "Rasanya bahagia sepenuhnya sampai" },
+    { time: "01:14", text: "Ku merasa lega kau merasa lega" },
+    { time: "01:20", text: "Ku sampai di sana" },
+
+    { time: "01:28", text: "Perlahan telah, Kau ajarkan cara" },
+    { time: "01:41", text: "Menerima rasa, Baik buruk yang kupunya" },
+
+    { time: "01:55", text: "Kau panggil jahat yang menyelimuti" },
+    { time: "02:02", text: "Sampai kutahu dunia tak lagi menyakiti" },
+
+    { time: "02:12", text: "Dan kubisikkan asal kau tahu bagaimana" },
+    { time: "02:19", text: "Rasanya bahagia sepenuhnya sampai" },
+    { time: "02:25", text: "Ku merasa lega kau merasa lega" },
+    { time: "02:32", text: "Ku sampai di sana" },
+
+    { time: "02:40", text: "Perang telah usai" },
+    { time: "02:47", text: "Perang telah usai" },
+    { time: "02:54", text: "Aku bisa pulang" },
+    { time: "03:00", text: "Ku baringkan panah " },
+    { time: "03:03", text: "Dan berteriak menang" },
+
+    { time: "03:11", text: "Dan ku bisikkan asal kau tahu bagaimana" },
+    { time: "03:17", text: "Rasanya bahagia sepenuhnya sampai" },
+    { time: "03:24", text: "Ku merasa lega kau merasa lega" },
+    { time: "03:31", text: "Ku sampai di sana kau sampai di sana" },
+    { time: "03:37", text: "Ku sampai di sana kau sampai di sana" }
+  ]
+}
 ];
