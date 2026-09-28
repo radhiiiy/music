@@ -869,7 +869,7 @@ const SONGS = [
 {
   title: "Bait Perindu",
   artist: "Soegi Bornean",
-  audioSrc: "assets/lagu177.mp3",
+  audioSrc: "assets/lagu17.mp3",
   photoSrc: "assets/foto17.jpg",
   lyrics: [
     { time: "00:48", text: "Merangkai aksara pelipur aku" },
