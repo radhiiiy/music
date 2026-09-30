@@ -1,27 +1,3 @@
-// ============================================================
-//  songs.js — DAFTAR LAGU KAMU (hardcode di sini, bukan upload)
-// ============================================================
-//
-// Cara pakai:
-// 1. Taruh file musik kamu di dalam folder "assets/" (contoh: assets/lagu1.mp3)
-// 2. Taruh foto kamu juga di folder "assets/" (contoh: assets/foto1.jpg)
-// 3. Isi/ubah data di bawah ini sesuai lagu & foto kamu.
-// 4. Lirik ditulis per baris dengan "time" = kapan baris itu mulai
-//    dinyanyikan. Boleh format detik biasa (24) atau "menit:detik" ("00:24").
-// 5. MAU NAMBAH LAGU LAIN? Tinggal copy satu blok { ... } di bawah ini,
-//    kasih koma di antaranya, lalu isi datanya. Semua lagu yang kamu
-//    tambahkan di sini otomatis akan muncul di tombol " Cari Lagu",
-//    dan ikut diputar bergantian lewat tombol Urut/Acak.
-//
-//    Contoh nambah lagu kedua (hapus tanda komentar /* */ di bawah
-//    kalau sudah siap file musik & fotonya):
-//
-//    /*
-
-//    */
-//
-// ============================================================
-
 const SONGS = [
   {
     title: "1000X",
@@ -1244,6 +1220,291 @@ const SONGS = [
 
       { time: "06:45", text: "Terus berenang" },
       { time: "06:50", text: "Lanjutlah mendaki" }
+    ]
+  },
+  {
+    title: "Ini Abadi",
+    artist: "Perunggu",
+    audioSrc: "assets/lagu25.mp3",
+    photoSrc: "assets/foto25.jpg",
+    lyrics: [
+      { time: "00:05", text: "Dihentak sunyi" },
+      { time: "00:09", text: "Geram gusarmu mulai" },
+      { time: "00:14", text: "Gerayangi kupingku" },
+      { time: "00:20", text: "Dibungkam lagi" },
+      { time: "00:23", text: "Janji yang sumbang itu" },
+      { time: "00:29", text: "Tak semenarik dulu" },
+
+      { time: "00:34", text: "Sejuk wangimu" },
+      { time: "00:38", text: "Tersisa di sela-sela" },
+      { time: "00:44", text: "Baju hangatku" },
+
+      { time: "00:49", text: "Terakhir kali" },
+      { time: "00:53", text: "Kita bicarakan semua" },
+      { time: "00:58", text: "Besok 'kan bagaimana" },
+
+      { time: "01:04", text: "Lihatlah semua sudut itu" },
+      { time: "01:11", text: "Bandung 'kan selalu memelukmu" },
+      { time: "01:19", text: "Dinginnya hangatkanmu selalu" },
+      { time: "01:26", text: "Dilengkapi lapisan selimut" },
+      { time: "01:32", text: "Yang berupa dekapan nadi yang mengalir" },
+
+      { time: "01:43", text: "Menjadi seruan di hati" },
+      { time: "01:50", text: "Bermuarakan kabar baru" },
+      { time: "01:57", text: "Tentang mimpi berkecukupan" },
+      { time: "02:05", text: "Tanpa harus lembur lagi" },
+      { time: "02:12", text: "Ke Gambir lagi Senin pagi" },
+      { time: "02:20", text: "Dilanjut taksi, tenangkanlah" },
+      { time: "02:27", text: "Ini abadi" },
+
+      { time: "02:34", text: "Uh-wo-oh-oh-oh-uh" },
+      { time: "02:44", text: "Ho-oh-oh-ho-uh" },
+      { time: "02:47", text: "(Abadi, abadi) hu-wo-ho-oh-oh-uh" },
+      { time: "02:55", text: "(Abadi, abadi)" },
+      { time: "03:01", text: "(Abadi, abadi) hu-wo, ha-ha" },
+      { time: "03:09", text: "(Abadi, abadi)" },
+      { time: "03:16", text: "(Abadi, abadi) hu-wo, ha-ha" },
+      { time: "03:24", text: "(Abadi, abadi)" }
+    ]
+  },
+  {
+    title: "Lesung Pipi",
+    artist: "Raim Laode",
+    audioSrc: "assets/lagu26.mp3",
+    photoSrc: "assets/foto26.jpg",
+    lyrics: [
+      { time: "00:20", text: "Tatkala mentari terbenam di ufuk barat" },
+      { time: "00:27", text: "Di saat itulah dingin rindu selimuti" },
+      { time: "00:34", text: "Keindahan senyuman dari lesung pipi itu" },
+      { time: "00:41", text: "Menikmati imaji bersamamu" },
+
+      { time: "00:52", text: "Maka terimalah diriku" },
+      { time: "00:59", text: "Kita akan bahagia selamanya" },
+      { time: "01:06", text: "Ku berjanji jadi suamimu" },
+      { time: "01:13", text: "Dan ku akan memberikan yang terbaik untukmu" },
+
+      { time: "01:27", text: "Ku sadar lirikku tak seindah lagu indie" },
+      { time: "01:34", text: "Yang selalu kau dengar, meracuni telingamu" },
+      { time: "01:41", text: "Kupastikan ini bukan tentang senja dan lara" },
+      { time: "01:48", text: "Sahajamu warnai duniaku" },
+
+      { time: "01:56", text: "Maka terimalah diriku" },
+      { time: "02:03", text: "Kita akan bahagia selamanya" },
+      { time: "02:10", text: "Ku berjanji jadi suamimu" },
+      { time: "02:17", text: "Dan ku akan memberikan yang terbaik untukmu" },
+
+      { time: "02:25", text: "Perbedaan buat kita terus bersama" },
+      { time: "02:33", text: "Izinkan kujaga hatimu" },
+
+      { time: "02:51", text: "Maka terimalah diriku" },
+      { time: "02:59", text: "Kita akan bahagia selamanya" },
+      { time: "03:06", text: "Ku berjanji jadi suamimu" },
+      { time: "03:13", text: "Dan ku akan memberikan yang terbaik untukmu" },
+
+      { time: "03:20", text: "Karena itu tugas cinta, memberikan keindahan" },
+      { time: "03:27", text: "Meskipun hidup tak selalu indah" },
+      { time: "03:34", text: "Meskipun hidup tak selalu indah" }
+    ]
+  },
+  {
+    title: "Surat Cinta Untuk Starla",
+    artist: "Virgoun",
+    audioSrc: "assets/lagu27.mp3",
+    photoSrc: "assets/foto27.jpg",
+    lyrics: [
+
+      { time: "00:26", text: "Kutuliskan kenangan tentang" },
+      { time: "00:30", text: "Caraku menemukan dirimu" },
+      { time: "00:36", text: "Tentang apa yang membuatku mudah" },
+      { time: "00:40", text: "Berikan hatiku padamu" },
+
+      { time: "00:46", text: "Takkan habis sejuta lagu" },
+      { time: "00:50", text: "Untuk menceritakan cantikmu" },
+      { time: "00:56", text: "'Kan teramat panjang puisi" },
+      { time: "01:00", text: "'Tuk menyuratkan cinta ini" },
+      { time: "01:05", text: "Telah habis sudah cinta ini" },
+      { time: "01:09", text: "Tak lagi tersisa untuk dunia" },
+      { time: "01:14", text: "Kar'na t'lah kuhabiskan" },
+      { time: "01:17", text: "Sisa cintaku hanya untukmu" },
+
+      { time: "01:31", text: "Aku pernah berfikir tentang" },
+      { time: "01:35", text: "Hidupku tanpa ada dirimu" },
+      { time: "01:41", text: "Dapatkah lebih indah dari" },
+      { time: "01:45", text: "Yang kujalani sampai kini?" },
+
+      { time: "01:51", text: "Aku s'lalu bermimpi tentang" },
+      { time: "01:55", text: "Indah hari tua bersamamu" },
+      { time: "02:01", text: "Tetap cantik rambut panjangmu" },
+      { time: "02:05", text: "Meskipun nanti tak hitam lagi" },
+
+      { time: "02:10", text: "Bila habis sudah waktu ini" },
+      { time: "02:14", text: "Tak lagi berpijak pada dunia" },
+      { time: "02:19", text: "Telah aku habiskan" },
+      { time: "02:22", text: "Sisa hidupku hanya untukmu" },
+
+      { time: "02:29", text: "Dan t'lah habis sudah cinta ini" },
+      { time: "02:34", text: "Tak lagi tersisa untuk dunia" },
+      { time: "02:39", text: "Kar'na t'lah kuhabiskan" },
+      { time: "02:42", text: "Sisa cintaku hanya untukmu" },
+
+      { time: "02:50", text: "Untukmu" },
+      { time: "02:54", text: "Hidup dan matiku" },
+
+      { time: "03:04", text: "Bila musim berganti" },
+      { time: "03:10", text: "Sampai waktu terhenti" },
+      { time: "03:14", text: "Walau dunia membenci" },
+      { time: "03:19", text: "Ku 'kan tetap di sini" },
+
+      { time: "03:24", text: "Bila habis sudah waktu ini (bila musim berganti)" },
+      { time: "03:29", text: "Tak lagi berpijak pada dunia (sampai waktu berhenti)" },
+      { time: "03:34", text: "Telah aku habiskan (walau dunia membenci)" },
+      { time: "03:37", text: "Sisa hidupku hanya untukmu (ku 'kan tetap di sini)" },
+
+      { time: "03:44", text: "Telah habis sudah cinta ini (bila musim berganti)" },
+      { time: "03:49", text: "Tak lagi tersisa untuk dunia (sampai waktu terhenti)" },
+      { time: "03:54", text: "Kar'na t'lah kuhabiskan (walau dunia membenci)" },
+      { time: "03:57", text: "Sisa cintaku hanya untukmu (ku 'kan tetap di sini)" },
+
+      { time: "04:04", text: "Kar'na t'lah kuhabiskan" },
+      { time: "04:08", text: "Sisa cintaku hanya untukmu" }
+    ]
+  },
+  {
+    title: "Bukti",
+    artist: "Virgoun",
+    audioSrc: "assets/lagu28.mp3",
+    photoSrc: "assets/foto28.jpg",
+    lyrics: [
+      { time: "00:28", text: "Memenangkan hatiku bukanlah satu hal yang mudah" },
+      { time: "00:38", text: "Kau berhasil membuatku tak bisa hidup tanpamu" },
+      { time: "00:49", text: "Menjaga cinta itu bukanlah satu hal yang mudah" },
+      { time: "00:58", text: "Namun, sedetik pun tak pernah kau berpaling dariku" },
+
+      { time: "01:08", text: "Beruntungnya aku" },
+      { time: "01:13", text: "Dimiliki kamu" },
+      { time: "01:20", text: "Kamu adalah bukti" },
+      { time: "01:24", text: "Dari cantiknya paras dan hati" },
+      { time: "01:29", text: "Kau jadi harmoni saat ku bernyanyi" },
+      { time: "01:35", text: "Tentang terang dan gelapnya hidup ini" },
+      { time: "01:40", text: "Kaulah bentuk terindah" },
+      { time: "01:44", text: "Dari baiknya Tuhan padaku" },
+      { time: "01:50", text: "Waktu tak mengusaikan cantikmu" },
+      { time: "01:55", text: "Kau wanita terhebat bagiku" },
+      { time: "01:59", text: "Tolong kamu camkan itu" },
+
+      { time: "02:11", text: "Meruntuhkan egoku bukanlah satu hal yang mudah" },
+      { time: "02:21", text: "Dengan kasih lembut kau pecahkan kerasnya hatiku" },
+
+      { time: "02:30", text: "Beruntungnya aku" },
+      { time: "02:35", text: "Dimiliki kamu (ku ingin engkau tahu)" },
+      { time: "02:42", text: "Kamu adalah bukti" },
+      { time: "02:46", text: "Dari cantiknya paras dan hati" },
+      { time: "02:51", text: "Kau jadi harmoni saat ku bernyanyi" },
+      { time: "02:57", text: "Tentang terang dan gelapnya hidup ini" },
+      { time: "03:02", text: "Kaulah bentuk terindah (kaulah bentuk terindah)" },
+      { time: "03:07", text: "Dari baiknya Tuhan padaku" },
+      { time: "03:12", text: "Waktu tak mengusaikan cantikmu (mengusaikan cantikmu)" },
+      { time: "03:17", text: "Kau wanita terhebat bagiku" },
+      { time: "03:21", text: "Tolong kamu camkan itu" },
+
+      { time: "03:24", text: "(Semua yang jadi bukti)" },
+      { time: "03:29", text: "(Tersimpan di dalam palung hati)" },
+      { time: "03:34", text: "(Semua yang jadi bukti)" },
+      { time: "03:40", text: "(Tersimpan di dalam palung hati)" },
+
+      { time: "03:44", text: "Kamu adalah bukti" },
+      { time: "03:48", text: "Dari cantiknya paras dan hati" },
+      { time: "03:53", text: "Kau jadi harmoni saat ku bernyanyi" },
+      { time: "03:59", text: "Tentang terang dan gelapnya hidup ini" },
+      { time: "04:04", text: "Kaulah bentuk terindah (kaulah bentuk terindah)" },
+      { time: "04:08", text: "Dari baiknya Tuhan padaku" },
+      { time: "04:14", text: "Waktu tak mengusaikan cantikmu (mengusaikan cantikmu)" },
+      { time: "04:19", text: "Kau wanita terhebat bagiku" },
+      { time: "04:23", text: "Tolong kamu camkan itu" },
+      { time: "04:29", text: "Hm-mm" },
+      { time: "04:33", text: "Tolong kamu camkan itu" }
+    ]
+  },
+  {
+    title: "Arti Hidup",
+    artist: "Raim Laode",
+    audioSrc: "assets/lagu29.mp3",
+    photoSrc: "assets/foto29.jpg",
+    lyrics: [
+      { time: "00:19", text: "Tak pernah kurasakan sebelumnya" },
+      { time: "00:24", text: "Kau datang hampiri hidupku" },
+      { time: "00:28", text: "Di saat aku menyangka kau tak ada" },
+
+      { time: "00:37", text: "Mengapa ini terjadi" },
+      { time: "00:42", text: "Di saat aku mengira" },
+      { time: "00:46", text: "Dirimu, tawamu takkan untukku?" },
+
+      { time: "00:55", text: "Karena kau arti hidup" },
+      { time: "01:00", text: "Karena kau aku di sini" },
+      { time: "01:04", text: "Ku ingin semua menjadi" },
+      { time: "01:09", text: "Seperti yang aku inginkan" },
+      { time: "01:13", text: "Sikapmu membuatku mengerti" },
+      { time: "01:18", text: "Akan hadirnya cintamu" },
+      { time: "01:22", text: "Ku ingin ini menjadi kita" },
+
+      { time: "01:35", text: "Ku tak peduli seluruh aturan" },
+      { time: "01:40", text: "Jika tak bersamamu, akan kulanggar" },
+      { time: "01:44", text: "Ku tak peduli dia panggilku gila" },
+      { time: "01:49", text: "Yang kutahu hanya cinta kita, oh-oh" },
+
+      { time: "02:14", text: "Karena kau arti hidup" },
+      { time: "02:19", text: "Karena kau aku di sini" },
+      { time: "02:23", text: "Ku ingin semua menjadi" },
+      { time: "02:28", text: "Seperti yang aku inginkan" },
+      { time: "02:32", text: "Sikapmu membuatku mengerti" },
+      { time: "02:36", text: "Akan hadirnya cintamu" },
+      { time: "02:41", text: "Ku ingin ini menjadi cinta" },
+
+      { time: "02:50", text: "Bahkan tak ada sedetik pun" },
+      { time: "02:55", text: "Pasti ku rindu" }
+    ]
+  },
+  {
+    title: "Orang Yang Sama",
+    artist: "Virgoun",
+    audioSrc: "assets/lagu30.mp3",
+    photoSrc: "assets/foto30.jpg",
+    lyrics: [
+      { time: "00:20", text: "Teringat lagi hal yang buat hatiku" },
+      { time: "00:27", text: "Jatuh cinta dengan hebatnya padamu" },
+      { time: "00:34", text: "Hingga kini ku belum mampu percaya" },
+      { time: "00:41", text: "Kau milikku s'lamanya" },
+      { time: "00:47", text: "Kutemukan arti cinta" },
+      { time: "00:54", text: "Di waktu hidup denganmu yang tak terduga" },
+      { time: "01:00", text: "Seperti nadimu yang s'lalu denyutkan setia" },
+      { time: "01:08", text: "Aku bahagia menjadi miliknya" },
+      { time: "01:14", text: "Bagaimana bisa aku jatuh cinta" },
+      { time: "01:22", text: "Berulang kali" },
+      { time: "01:25", text: "Berulang kali pada orang yang sama?" },
+      { time: "01:36", text: "Terima kasih, kau tetap di sampingku" },
+      { time: "01:43", text: "Di tengah kencang badai hidup menerpa" },
+      { time: "01:50", text: "Saat dunia memaksamu 'tuk pergi" },
+      { time: "01:56", text: "Kau tetap setia" },
+      { time: "02:02", text: "Kutemukan arti cinta" },
+      { time: "02:10", text: "Di waktu hidup denganmu yang tak terduga" },
+      { time: "02:16", text: "Bila waktu izinkan kita menua bersama" },
+      { time: "02:23", text: "Di mataku, indahmu tetaplah sama" },
+      { time: "02:29", text: "Bagaimana bisa aku jatuh cinta" },
+      { time: "02:37", text: "Berulang kali" },
+      { time: "02:41", text: "Berulang kali pada orang yang sama?" },
+      { time: "02:47", text: "Ho-oh-ho-oh" },
+      { time: "02:51", text: "Hu-uh-uh-uh" },
+      { time: "02:57", text: "Kutemukan arti cinta" },
+      { time: "03:05", text: "Di waktu hidup denganmu yang tak terduga" },
+      { time: "03:11", text: "Seperti nadimu yang s'lalu denyutkan setia" },
+      { time: "03:18", text: "Aku bahagia menjadi pemiliknya" },
+      { time: "03:24", text: "Bagaimana bisa kautitipkan cinta" },
+      { time: "03:32", text: "Pada aku yang jauh dari sempurna?" },
+      { time: "03:38", text: "Bila waktu izinkan kita menua bersama" },
+      { time: "03:45", text: "Di mataku, indahmu tetaplah sama" },
+      { time: "03:52", text: "Bagaimana bisa aku jatuh cinta" },
+      { time: "03:59", text: "Berulang kali, berulang kali" },
+      { time: "04:07", text: "Berulang kali pada orang yang sama?" }
     ]
   }
 ];
